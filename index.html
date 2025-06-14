@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jokenpow</title>
+</head>
+<body>
+    <h1>Jokenpow</h1>
+
+    <div class="score">
+        <p id="wins">Vitorias: <span id="spanWin">0</span></p>
+        <h2>Score</h2>
+        <p id="defeats">Derrotas: <span  id="spanDefeats">0</span></p>
+    </div>
+
+    <div class="buttons">
+        <button onclick="clickPlayer(0)"><img src="./assets/papel.jpeg" alt="Imagem de uma mão fazendo simgbolo de papel"></button>
+        <button onclick="clickPlayer(1)"><img src="./assets/tesoura.jpeg" alt="Imagem de uma mão fazendo simgbolo de tesoura"></button>
+        <button onclick="clickPlayer(2)"><img src="./assets/pedra.jpeg" alt="Imagem de uma mão fazendo simgbolo de pedra"></button>
+    </div>
+
+    <p id="result">Pressione para jogar</p>
+    <p id="playMachine"></p>
+</body>
+<script src="scripts.js"></script>
+</html>
